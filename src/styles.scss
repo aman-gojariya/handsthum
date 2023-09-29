@@ -1,7 +1,122 @@
 /* You can add global styles to this file, and also import other style files */
+
 $app-primary: #18bb4a;
-
-
-p{
-    color: $app-primary !important;
+$common-btn: #eb455f;
+// p {
+//     color: $app-primary !important;
+// }
+// common css
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
 }
+
+body {
+  background-color: #fefefe;
+  font-family: "Montserrat", sans-serif;
+}
+
+.common-button {
+  background-color: $common-btn;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+}
+
+// header css start
+header .top-header {
+  background-color: #1f233c;
+  color: #ffffff;
+  padding-top: 12px;
+}
+
+header .top-header ul li {
+  display: inline-block;
+  list-style: disc;
+  margin: 0 50px;
+  font-size: 18px;
+}
+
+.bottom-header {
+  background-color: #2b3467;
+}
+
+.bottom-header .navbar-nav li {
+  margin: 0 20px;
+}
+
+.bottom-header .navbar-nav li a.nav-link {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+// header css end
+// carousel css start
+.banner-section {
+  .carousel-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 30%;
+    h2 {
+      color: #ffffff;
+      text-transform: capitalize;
+      font-size: 48px;
+      font-weight: 500;
+    }
+    p {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+
+.banner-section .carousel-content .common-button {
+  margin-top: 60px;
+}
+
+// carousel css end
+// service css start
+.services-section {
+  padding: 40px 0;
+  h3 {
+    color: #000000;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 60px;
+  }
+  .service-wrap {
+    background-color: #ffffff;
+    border: 1px solid #c8d5dc;
+    box-shadow: 0px 0px 12px 6px rgba(0, 0, 0, 0.05);
+    .service-content {
+      padding: 10px;
+      h6 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin-bottom: 12px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 16px;
+        line-height: 22px;
+        color: #333333;
+      }
+    }
+  }
+}
+
+// service css end

@@ -17,13 +17,10 @@ import { SignInComponent } from './auth/sign-in/sign-in.component';
     HomeComponent,
     LayoutComponent,
     SignUpComponent,
-    SignInComponent
+    SignInComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
